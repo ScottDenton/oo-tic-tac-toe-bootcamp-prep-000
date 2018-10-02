@@ -89,6 +89,13 @@ WIN_COMBINATIONS.each {|win_combo|
   return false
 end
 
+def full?
+ if @board.all? {|position| position =="X" || position =="O"}
+   return TRUE
+ else 
+   return FALSE
+end
+end
   
   
   
