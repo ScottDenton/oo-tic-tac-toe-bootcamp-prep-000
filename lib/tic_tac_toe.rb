@@ -31,6 +31,10 @@ end
     @board[index] = player_token
 end
  
+ def position_taken?(index)
+  !(@board[index].nil? || @board[index] == " ")
+end
+
   
   
   
