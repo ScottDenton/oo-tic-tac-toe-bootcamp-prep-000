@@ -106,6 +106,13 @@ def draw?
   end
 end  
   
+def over?
+  if won? || full?|| draw?
+       return TRUE
+  elsif !won? || !draw?
+       return FALSE
+  end
+end
   
   
   
