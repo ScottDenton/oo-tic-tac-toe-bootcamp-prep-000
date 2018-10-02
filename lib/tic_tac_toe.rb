@@ -117,7 +117,7 @@ end
 def winner
   win_combo = won?
   if won?
-    if board[win_combo[1]] =="O"
+    if @board[win_combo[1]] =="O"
   return "O"
 else
   return "X"
